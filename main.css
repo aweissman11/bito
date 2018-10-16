@@ -33,6 +33,16 @@ aside {
     height: 30%;
     justify-content: space-between;
     list-style: none;
+    padding: 0 10px;
+}
+
+.sidebar li {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+.sidebar li:active {
+    box-shadow: none;
+    transform: scale(.95);
 }
 
 .sidebar ul i {
@@ -249,4 +259,8 @@ header {
     font-size: 1.5em;
     text-align: right;
     margin-left: 35px;
+}
+
+.day {
+    filter: drop-shadow(6px 6px 6px black);
 }

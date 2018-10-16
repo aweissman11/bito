@@ -1,0 +1,252 @@
+* {
+    font-family: 'Averia Sans Libre', cursive;
+    background: #6595a1;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+aside {
+    text-align: center;
+}
+
+.sidebar {
+    border: solid #0e6378;
+    border-radius: 3px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+.sidebar h2 {
+    margin: 0 auto;
+}
+
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.sidebar ul i {
+    margin: 0 10px;
+}
+
+.pic-border {
+    border-radius: 100%;
+    height: 100px;
+    margin: 20px auto;
+    width: 100px;
+}
+
+.pic-border img {
+    border: solid #0e6378;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.measurements {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.measurements h3 {
+    width: 40%;
+    margin: 0
+}
+
+.measurements h5 {
+    margin: 0;
+    text-align: center;
+    width: 40%;
+}
+
+.options-list {
+    list-style-type: circle;
+    text-align: left;
+}
+
+.great-work {
+    border: solid #0e6378;
+    border-radius: 3px;
+}
+
+main {
+    margin-left: 2em;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.daily-info {
+    border: solid #0e6378;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.daily-info h1 {
+    text-align: center;
+    margin: 9px 15px;
+    width: 80px;
+}
+
+.info-summary {
+    font-size: .7em;
+}
+
+.bito {
+    /* background: #6a9eab; */
+    border: solid #0e6378;
+    border-radius: 3px;
+    color: #0f4532;
+    font-size: 1.9em;
+    margin-left: 1em;
+    margin-top: 0;
+    width: 40%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.stat-holder {
+    margin-top: -72px;
+}
+
+.stat-title {
+    background: none;
+    position: relative;
+    margin: 0;
+    top: 87px;
+    left: 20px;
+}
+
+.stat-btns {
+    background: none;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    top: 310px;
+    display: flex;
+}
+
+.stat-btn {
+    border: solid #0e6378;
+    border-radius: 3px;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 1);
+    margin: 0 15px;
+}
+
+.mood {
+    background: #1e8c66;
+    color: #96e0f2;
+}
+
+.mood:hover {
+    background: #5b6998;
+    color: #303738;
+}
+
+.mood:active {
+    background: #0f4532;
+    color: #6a9eab;
+    box-shadow: none;
+    transform: scale(.95)
+}
+
+.activity {
+    background: #994b48;
+    color: #96e0f2;
+}
+
+.activity:hover {
+    background: #d09294;
+    color: #303738;
+}
+
+.activity:active {
+    background: #522826;
+    color: #6a9eab;
+    box-shadow: none;
+    transform: scale(.95)
+}
+
+.symptoms {
+    background: #bf1652;
+    color: #96e0f2;
+}
+
+.symptoms:hover {
+    background: #fc78be;
+    color: #303738;
+}
+
+.symptoms:active {
+    background: #780e34;
+    color: #6a9eab;
+    box-shadow: none;
+    transform: scale(.95)
+}
+
+.weight {
+    background: #169ebf;
+    color: #96e0f2;
+}
+
+.weight:hover {
+    background: #59ebfc;
+    color: #303738;
+}
+
+.weight:active {
+    background: #0e6378;
+    color: #6a9eab;
+    box-shadow: none;
+    transform: scale(.95)
+}
+
+
+.graph-img {
+    width: 100%;
+}
+
+.weekdays {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    width: 93%;
+}
+
+.weekdays li {
+    border: solid #0e6378;
+    font-size: 1.5em;
+    height: 75px;
+    width: 75px;
+}
+
+.weekdays li i {
+    margin-top: 6px;
+}
+
+.weekdays li i::before {
+    font-size: 1.5em;
+    text-align: right;
+    margin-left: 35px;
+}
